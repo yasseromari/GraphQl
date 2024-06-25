@@ -1,0 +1,12 @@
+type City {
+    id: Int!
+    name: String
+    country: Country
+    district: String
+    population: Int
+}
+
+type Query {
+    allCities: [City]
+    findCity(id: Int!): City
+}

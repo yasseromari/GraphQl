@@ -1,0 +1,20 @@
+extend type Query {
+    Countries: [Country]
+}
+type Country {
+    code: String!
+    name: String
+    continent: String
+    region: String
+    surfaceArea: Float
+    indepYear: Int
+    population: Int
+    lifeExpectancy: Float
+    gnp: Float
+    gnpOld: Float
+    localName: String
+    governmentForm: String
+    headOfState: String
+    capital: Int
+    code2: String
+}
